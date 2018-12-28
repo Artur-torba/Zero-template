@@ -1,0 +1,266 @@
+body{
+font-family: FregatBold;
+padding: 0;	
+background-color: #ffffff;
+}
+header{padding-left:0px;
+width:100%;
+margin:0 auto;
+}
+
+.header-menu  {padding-top:20px;
+background-color:#f2f2f2;
+	height:50px;
+	padding-left:170px;
+	}	
+.header-menu form{
+	margin-right:130px;
+}
+
+.header-menu:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.header-menu a, .footer-menu a{color:#1a09c9;
+	text-decoration: none;
+	font-family: Fregat;
+	font-size: 16px;
+	margin-right:  30px;
+}
+.header-menu span{color:#555555;
+	
+}
+.header-menu ul {
+	 margin: 0; 
+    padding: 4px;
+}
+ul {list-style-type: none
+}
+.header-menu li {display:inline; 
+padding: 10px; 
+font-size:16px;
+text-transform:uppercase;
+font-weight: bold;
+}
+
+.btn{
+	border: solid 1px #555555;
+	border-radius:15px;
+	padding:5px 10px;
+}
+.search {float:right;
+margin-top: -55px;
+width:15%;
+}
+.search:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.search input {border:none;
+position:relative;}
+
+.search .input {position: absolute;
+	width: 200px;
+	top: 25px;
+padding: 8px 37px 9px 15px;
+ -moz-box-sizing: border-box;
+  box-sizing: border-box;
+box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+border-radius: 20px;
+font: 13px Tahoma, Arial, sans-serif;
+  color: #cfcfcf;
+  outline: none;
+}
+.aa {margin-right: 80px}
+
+.search .submit {
+  top: 65px;
+  right: 90px;
+  margin-top: -55px;
+  margin-left: 200px;
+  width: 140px;
+  height:80px;
+ cursor: pointer;
+ background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+}
+.header-logo {display: flex;
+justify-content: start;
+vertical-align:top;
+padding-left:170px;
+} 
+.img-logo {
+	padding-top: 60px;
+}
+
+.logo-name {
+	margin-left: 50px;
+	/*padding-top:-70px;*/
+
+ }
+   .logo-name span{margin-top: 20px;
+   	text-transform:uppercase;
+ 	color:#555555;
+ 	font-size: 36px;
+ 	font-weight: normal;
+	font-style: normal;
+ }
+ 
+ .logo-name p{line-height: 0px;
+font-size: 10px;
+text-transform:none;
+ }
+ h1{margin-bottom: -10px;}
+ .add-goods {font-size:24px;}
+ .form input{ 
+ 	margin:10px;
+ }
+ .tele-pages{padding-left:170px;
+}
+svg{margin-bottom: 50px;
+	margin-top: 50px;
+margin-left: 170px;}
+.tele-pages li{display:inline;
+}
+.tele-pages a {color:#555555;
+	font-size: 16px;
+}
+.main-menu h1 {padding-left: 170px;
+text-transform:uppercase;
+ 	color:#555555;
+ 	font-size: 30px;
+ 	font-family: Fregat;
+ 	margin-bottom: 80px;
+}
+
+
+.main-menu input, textarea, select { 
+box-shadow:;
+border-radius: 5px;
+background-color:#f6f6f6;}
+
+select {color:#555555; 
+	box-shadow: 0px 1px 1px  #555555;
+	height:30px;
+	border:none;
+	padding-left: 10px;
+}
+
+
+
+/* Вторая Форма*/
+
+.form-2 {
+	width: 80%;
+	margin:0 auto;
+	display:flex;
+	justify-content: flex-start;
+}
+.left-form{
+	margin-left:30px;
+	padding:0;
+	height:300px;
+	width:200px;
+}
+.left-form li:not(:first-of-type) {padding-top: 40px;
+	list-style-type: none;
+
+}
+
+.left-form ul {margin-left:  -30px;
+color:#555555;
+ font-size:12px;
+font-family: arial;}
+
+
+.checkbox-form {
+  margin-left:0px;
+  margin-right: 20px;
+}
+
+.right-form{
+	margin-left:-15px;
+height:300px;
+	width:500px;
+
+}
+
+.right-form li {padding-top:10px;
+	list-style-type:none;
+	padding-left:0;
+}
+.right-form ul{
+margin-top: -3px;
+
+}
+.textarea_form-2 {margin:0;
+margin-top: 75px;
+color:#555555; box-shadow: 0px 1px 1px  #555555;
+border:none;
+}
+
+.input_form-2 {color:#555555; box-shadow: 0px 1px 1px  #555555;
+	height:30px;
+	border:none;
+}
+
+.button-comment {
+border-radius: 30px 30px 30px 30px;
+padding-bottom: 15px;
+padding-top :15px;
+width:220px;
+background-color:white;
+color:#3a29f4;
+font-family: fregat;
+border:1px solid #3a29f4;
+text-transform:uppercase;
+
+margin-top:40px;
+font-size:16px;
+}
+.list-right-2 {
+	margin-top:15px;
+}
+.list-right-3 {
+	margin-top:15px;
+	width:382px;
+}
+.textarea_form-2 {resize: none;
+width: 590px;}
+.select-form2 {
+	width:382px;
+}
+/* Вторая Форма*/
+
+footer {margin-top: 300px;
+}
+.footer-menu {background-color:#f2f2f2;
+height:100px;
+}
+.footer-menu li {display:inline; 
+font-size:16px;
+position: absolute;
+text-transform:uppercase;
+font-weight: bold;
+padding-right: 20px;
+padding-top: 20px;
+}
+
+.footer-menu span {float:right;
+font-size:12px;
+font-family: arial;
+margin-right: 170px;
+margin-top: 20px;
+color:#555555;
+}
+
+.footer-menu div {margin-right: 100px;}
+.last1{left:185px;}
+.last2{left: 280px;}
+
+
+
+
